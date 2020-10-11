@@ -20,4 +20,4 @@ jobs:
         with:
           python-version: 3.7
           architecture: x64
-      - run: python src/gym-checker.py
+      - run: pip install requests && python src/gym-checker.py
