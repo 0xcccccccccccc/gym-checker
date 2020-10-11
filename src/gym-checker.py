@@ -1,3 +1,6 @@
+from pip._internal import main
+main.main(['install', 'requests'])
+
 import requests,json,datetime
 
 session=requests.Session()
