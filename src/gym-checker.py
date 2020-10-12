@@ -1,5 +1,5 @@
 from pip._internal import main
-main.main(['install', 'requests'])
+main(['install', 'requests'])
 
 import requests,json,datetime
 
